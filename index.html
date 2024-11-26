@@ -13,11 +13,11 @@
             <a href="#">EcoClean</a>
         </div>
         <ul class="menu">
-            <li><a href="#">首頁 / Home</a></li>
-            <li><a href="#">服務項目 / Services</a></li>
-            <li><a href="#">方案介紹 / Plans</a></li> <!-- 新增項目 -->
-            <li><a href="#">關於我們 / About Us</a></li>
-            <li><a href="#">聯絡我們 / Contact</a></li>
+            <li><a href="#home">首頁 / Home</a></li>
+            <li><a href="#services">服務項目 / Services</a></li>
+            <li><a href="#plans">方案介紹 / Plans</a></li>
+            <li><a href="#about-us">關於我們 / About Us</a></li>
+            <li><a href="#contact">聯絡我們 / Contact</a></li>
         </ul>
         <div class="auth-buttons">
             <button>註冊會員 / Sign Up</button>
@@ -26,18 +26,55 @@
     </header>
 
     <!-- 橫幅區塊 -->
-    <section class="hero-banner">
+    <section id="home" class="hero-banner">
         <h1>EcoClean 居家垃圾清運服務</h1>
         <p>專業、安全、快捷，致力於為您提供最舒適的生活環境。</p>
     </section>
 
-    <!-- 主內容區域 -->
+    <!-- 服務項目 -->
+    <section id="services" class="section">
+        <h2>服務項目 / Services</h2>
+        <p>我們提供以下服務：</p>
+        <ul>
+            <li>居家垃圾清運</li>
+            <li>回收物品處理</li>
+            <li>廚餘處理</li>
+            <li>大型垃圾清運</li>
+        </ul>
+    </section>
+
+    <!-- 方案介紹 -->
+    <section id="plans" class="section">
+        <h2>方案介紹 / Plans</h2>
+        <p>我們提供多種清運方案，滿足不同需求：</p>
+        <ul>
+            <li>單次清運方案</li>
+            <li>每週定期清運方案</li>
+            <li>企業垃圾清運方案</li>
+            <li>環保回收方案</li>
+        </ul>
+    </section>
+
+    <!-- 關於我們 -->
+    <section id="about-us" class="section">
+        <h2>關於我們 / About Us</h2>
+        <p>EcoClean 是一家專注於垃圾清運與環保的公司。我們的使命是打造清潔、健康的居家環境。</p>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section id="contact" class="section">
+        <h2>聯絡我們 / Contact</h2>
+        <p>如有任何問題，請聯絡我們：</p>
+        <ul>
+            <li>電話：123-456-789</li>
+            <li>Email：support@ecoclean.com</li>
+            <li>地址：台北市某某區某某路123號</li>
+        </ul>
+    </section>
+
+    <!-- 預約按鈕 -->
     <main>
-        <p style="text-align: center; font-size: 1.2rem; color: #4F6D5A;">
-            您的居家環保好夥伴，EcoClean 為您處理生活中的雜物負擔。
-        </p>
         <button onclick="location.href='booking.html'" style="display: block; margin: 1rem auto;">預約收垃圾 / Book Now</button>
     </main>
 </body>
 </html>
-
