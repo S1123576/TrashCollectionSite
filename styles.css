@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* 背景改為淺白 */
-    color: #333;
+    background-color: #A8B6C1; /* 淺莫蘭迪藍背景 */
+    color: #5C7080; /* 深莫蘭迪藍文字 */
 }
 
 /* 導航列樣式 */
@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #002147; /* 藏青藍背景 */
+    background-color: #5C7080; /* 深莫蘭迪藍背景 */
     padding: 1rem 2rem;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -21,17 +21,19 @@ body {
     z-index: 1000;
 }
 
-/* 功能選單 */
+.navbar .logo a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .menu {
     list-style: none;
     display: flex;
     gap: 1.5rem;
     margin: 0;
     padding: 0;
-}
-
-.menu li {
-    display: inline;
 }
 
 .menu a {
@@ -42,14 +44,13 @@ body {
 }
 
 .menu a:hover {
-    color: #87CEEB; /* 懸停時改為淡藍色 */
+    color: #A8B6C1; /* 懸停時改為淺莫蘭迪藍 */
 }
 
-/* 登入/註冊按鈕 */
 .auth-buttons button {
     background: white;
-    color: #002147; /* 藏青藍文字 */
-    border: 2px solid #002147;
+    color: #5C7080; /* 深莫蘭迪藍文字 */
+    border: 2px solid #5C7080;
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -60,72 +61,16 @@ body {
 }
 
 .auth-buttons button:hover {
-    background: #87CEEB; /* 懸停時背景改為淡藍色 */
+    background: #A8B6C1; /* 懸停時背景改為淺莫蘭迪藍 */
     color: white;
-    border-color: #87CEEB;
+    border-color: #A8B6C1;
 }
 
 /* 橫幅區塊樣式 */
 .hero-banner {
-    background: #002147; /* 藏青藍背景 */
+    background: #5C7080; /* 深莫蘭迪藍背景 */
     color: white;
     text-align: center;
     padding: 2rem 1rem;
     margin: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #87CEEB; /* 加淡藍色底邊框 */
-}
-
-.hero-banner h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0;
-}
-
-.hero-banner p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-    font-weight: 400;
-}
-
-/* 主內容區域 */
-main {
-    padding: 2rem;
-    max-width: 900px;
-    margin: auto;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: justify; /* 文字兩端對齊 */
-}
-
-main h2 {
-    text-align: center; /* 標題置中對齊 */
-    margin-bottom: 1.5rem;
-    color: #002147; /* 藏青藍文字 */
-}
-
-main img {
-    display: block;
-    margin: 1.5rem auto; /* 圖片置中，增加上下間距 */
-    max-width: 100%; /* 確保圖片寬度不超過容器 */
-    border-radius: 10px;
-}
-
-/* 按鈕樣式 */
-button {
-    background: #002147; /* 藏青藍背景 */
-    color: white;
-    border: 2px solid #002147;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.3s ease, color 0.3s ease;
-}
-
-button:hover {
-    background: #87CEEB; /* 懸停時背景改為淡藍色 */
-    color: #002147; /* 文字改為藏青藍 */
-    border-color: #87CEEB;
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0
