@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #A8B6C1; /* 淺莫蘭迪藍背景 */
-    color: #5C7080; /* 深莫蘭迪藍文字 */
+    background-color: #F2F4F1; /* 淺綠灰背景 */
+    color: #4F6D5A; /* 深綠文字 */
 }
 
 /* 導航列樣式 */
@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5C7080; /* 深莫蘭迪藍背景 */
+    background-color: #4F6D5A; /* 深綠背景 */
     padding: 1rem 2rem;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -44,13 +44,13 @@ body {
 }
 
 .menu a:hover {
-    color: #A8B6C1; /* 懸停時改為淺莫蘭迪藍 */
+    color: #A3B8A3; /* 懸停時改為柔和淺綠 */
 }
 
 .auth-buttons button {
     background: white;
-    color: #5C7080; /* 深莫蘭迪藍文字 */
-    border: 2px solid #5C7080;
+    color: #4F6D5A; /* 深綠文字 */
+    border: 2px solid #4F6D5A;
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -61,16 +61,63 @@ body {
 }
 
 .auth-buttons button:hover {
-    background: #A8B6C1; /* 懸停時背景改為淺莫蘭迪藍 */
+    background: #A3B8A3; /* 懸停時背景改為柔和淺綠 */
     color: white;
-    border-color: #A8B6C1;
+    border-color: #A3B8A3;
 }
 
 /* 橫幅區塊樣式 */
 .hero-banner {
-    background: #5C7080; /* 深莫蘭迪藍背景 */
+    background: #4F6D5A; /* 深綠背景 */
     color: white;
     text-align: center;
     padding: 2rem 1rem;
     margin: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #A3B8A3; /* 加柔和淺綠底邊框 */
+}
+
+.hero-banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-banner p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+/* 主內容區域 */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: #E6EFE9; /* 柔和綠白背景 */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #4F6D5A; /* 深綠文字 */
+}
+
+button {
+    background: #4F6D5A; /* 深綠背景 */
+    color: white;
+    border: 2px solid #4F6D5A;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background: #A3B8A3; /* 懸停時背景改為柔和淺綠 */
+    color: #4F6D5A; /* 文字改為深綠 */
+    border-color: #A3B8A3;
+}
