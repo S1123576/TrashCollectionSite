@@ -93,37 +93,34 @@ a {
     font-weight: 400;
 }
 
-/* 區塊樣式 */
+/* 各區塊樣式 */
 .section {
     padding: 2rem;
     margin: auto;
     max-width: 900px;
     text-align: center;
-    background: #E6EFE9;
+    background: #E6EFE9; /* 柔和綠白背景 */
     border-radius: 10px;
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.content-row {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
+.section h2 {
+    font-size: 1.8rem;
+    color: #4F6D5A; /* 深綠文字 */
 }
 
-.content-row.reverse {
-    flex-direction: row-reverse;
+.section p, .section ul {
+    font-size: 1rem;
+    color: #4F6D5A;
+    line-height: 1.6;
 }
 
-.content-text {
-    flex: 1;
-    text-align: left;
+.section ul {
+    list-style: none;
+    padding: 0;
 }
 
-.content-image {
-    flex: 1;
-    max-width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.section ul li {
+    margin: 0.5rem 0;
 }
