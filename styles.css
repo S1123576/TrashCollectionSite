@@ -7,6 +7,11 @@ body {
     color: #4F6D5A; /* 深綠文字 */
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* 導航列樣式 */
 .navbar {
     display: flex;
@@ -24,7 +29,6 @@ body {
 .navbar .logo a {
     font-size: 1.5rem;
     color: white;
-    text-decoration: none;
     font-weight: bold;
 }
 
@@ -89,35 +93,35 @@ body {
     font-weight: 400;
 }
 
-/* 主內容區域 */
-main {
+/* 各區塊樣式 */
+.section {
     padding: 2rem;
-    max-width: 900px;
     margin: auto;
+    max-width: 900px;
+    text-align: center;
     background: #E6EFE9; /* 柔和綠白背景 */
     border-radius: 10px;
+    margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
-main p {
-    font-size: 1.2rem;
+.section h2 {
+    font-size: 1.8rem;
     color: #4F6D5A; /* 深綠文字 */
 }
 
-button {
-    background: #4F6D5A; /* 深綠背景 */
-    color: white;
-    border: 2px solid #4F6D5A;
-    padding: 0.8rem 1.5rem;
+.section p, .section ul {
     font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.3s ease, color 0.3s ease;
+    color: #4F6D5A;
+    line-height: 1.6;
 }
 
-button:hover {
-    background: #A3B8A3; /* 懸停時背景改為柔和淺綠 */
-    color: #4F6D5A; /* 文字改為深綠 */
-    border-color: #A3B8A3;
+.section ul {
+    list-style: none;
+    padding: 0;
 }
+
+.section ul li {
+    margin: 0.5rem 0;
+}
+
