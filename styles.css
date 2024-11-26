@@ -64,6 +64,29 @@ body {
     color: white;
 }
 
+/* 橫幅區塊樣式 */
+.hero-banner {
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #4CAF50;
+}
+
+.hero-banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-banner p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
 /* 主內容區域 */
 main {
     padding: 2rem;
@@ -72,5 +95,33 @@ main {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* 文字兩端對齊 */
 }
 
+main h2 {
+    text-align: center; /* 標題置中對齊 */
+    margin-bottom: 1.5rem;
+}
+
+main img {
+    display: block;
+    margin: 1.5rem auto; /* 圖片置中，增加上下間距 */
+    max-width: 100%; /* 確保圖片寬度不超過容器 */
+    border-radius: 10px;
+}
+
+/* 按鈕樣式 */
+button {
+    background: linear-gradient(to right, #00C9FF, #92FE9D);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+}
