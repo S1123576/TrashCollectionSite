@@ -67,20 +67,39 @@ body {
 /* Section 樣式 */
 .section {
     padding: 50px 20px;
-    text-align: center; /* 將標題居中 */
-}
-
-.section h2 {
-    color: #356859;
-    font-size: 1.8rem;
-    margin-bottom: 30px;
-    text-align: left; /* 左對齊標題 */
 }
 
 .content-row {
     display: flex;
-    align-items: flex-start; /* 讓內容靠齊 */
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    text-align: left; /* 區塊文字左對齊 */
-    gap: 20px; /* 增加區塊
+}
+
+.content-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-image {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.content-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.content-text h2 {
+    color: #356859;
+    font-size: 1.8rem;
+}
+
+.content-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-text li {
+    margin: 10px 0;
+}
