@@ -1,6 +1,33 @@
-/* 按鈕樣式 */
-.book-now-btn {
-    background-color: #3E8E41;
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #356859; /* 深綠色 */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.action-buttons .book-now-btn {
+    background-color: #3E8E41; /* 按鈕綠色 */
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -8,40 +35,4 @@
     font-weight: bold;
 }
 
-.book-now-btn:hover {
-    background-color: #2E7031;
-}
-
-/* 表單樣式 */
-.booking-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.booking-form label {
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.booking-form input,
-.booking-form select,
-.booking-form button {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.booking-form button {
-    background-color: #3E8E41;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.booking-form button:hover {
-    background-color: #2E7031;
-}
+.book-now-btn:hover​⬤
