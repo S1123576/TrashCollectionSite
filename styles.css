@@ -35,4 +35,94 @@ body {
     font-weight: bold;
 }
 
-.book-now-btn:hover​⬤
+.book-now-btn:hover {
+    background-color: #2E7031; /* 深綠色 */
+}
+
+/* Banner 樣式 */
+.banner {
+    text-align: center;
+    background-color: #EDF4ED; /* 淺綠背景 */
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    color: #356859; /* 深綠色 */
+    font-size: 2.5rem;
+}
+
+.banner p {
+    color: #577D6A; /* 次深綠 */
+    font-size: 1.2rem;
+}
+
+/* Section 樣式 */
+.section {
+    padding: 50px 20px;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-image {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.content-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.content-text h2 {
+    color: #356859;
+    font-size: 1.8rem;
+}
+
+.content-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-text li {
+    margin: 10px 0;
+}
+
+/* Booking Form 樣式 */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.booking-form label {
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    background-color: #3E8E41;
+    color: white;
+    font-weight: bold;
+}
+
+.booking-form button:hover {
+    background-color: #2E7031;
+}
