@@ -74,15 +74,36 @@ body {
     color: #356859;
     font-size: 1.8rem;
     margin-bottom: 15px;
-    border-bottom: 2px solid #356859; /* 增加下方線條 */
+    border-bottom: 2px solid #356859;
     display: inline-block;
     padding-bottom: 5px;
 }
 
-.section-content p {
-    margin-top: 0;
+/* Alternate layout (圖片與文字左右交錯) */
+.alternate-layout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.alternate-layout .text {
+    flex: 1;
     font-size: 1rem;
-    color: #333;
+}
+
+.alternate-layout .image {
+    flex: 1;
+}
+
+.alternate-layout .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.alternate-layout.reverse {
+    flex-direction: row-reverse;
 }
 
 .section-content ul {
