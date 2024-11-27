@@ -14,12 +14,19 @@ body {
     background-color: #356859; /* 深綠色 */
     padding: 10px 20px;
     color: white;
+    border-bottom: 4px solid #2E7031; /* 外框加厚 */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold; /* 字體加粗 */
 }
 
 .navbar a {
     margin: 0 10px;
     color: white;
     text-decoration: none;
+    font-weight: bold; /* 字體加粗 */
 }
 
 .navbar a:hover {
@@ -32,7 +39,8 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold; /* 字體加粗 */
+    border: 2px solid white; /* 按鈕外框加粗 */
 }
 
 .book-now-btn:hover {
