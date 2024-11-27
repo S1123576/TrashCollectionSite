@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoClean - 居家垃圾清運服務</title>
+    <title>EcoClean</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,10 +12,10 @@
         <div class="logo">EcoClean</div>
         <nav class="navbar">
             <a href="#">首頁 / Home</a>
-            <a href="#">服務項目 / Services</a>
-            <a href="#">方案介紹 / Plans</a>
-            <a href="#">關於我們 / About Us</a>
-            <a href="#">聯絡我們 / Contact</a>
+            <a href="#services">服務項目 / Services</a>
+            <a href="#plans">方案介紹 / Plans</a>
+            <a href="#about">關於我們 / About Us</a>
+            <a href="#contact">聯絡我們 / Contact</a>
         </nav>
         <div class="action-buttons">
             <a href="booking.html" class="book-now-btn">立即預約 / Book Now</a>
@@ -23,68 +23,56 @@
     </header>
 
     <!-- Banner -->
-    <div class="banner">
+    <section class="banner">
         <h1>EcoClean 居家垃圾清運服務</h1>
         <p>專業、安全、快捷，致力於為您提供最舒適的生活環境。</p>
-    </div>
+    </section>
 
     <!-- Services Section -->
-    <section class="section">
+    <section id="services" class="section">
         <h2>服務項目 / Services</h2>
-        <div class="content-row">
-            <img src="service.jpg" alt="服務項目" class="content-image">
-            <div class="content-text">
-                <h3>我們提供以下服務：</h3>
-                <ul>
-                    <li>居家垃圾清運</li>
-                    <li>回收物品處理</li>
-                    <li>廚餘處理</li>
-                    <li>大型垃圾清運</li>
-                </ul>
-            </div>
+        <div class="section-content">
+            <p>我們提供以下服務：</p>
+            <ul>
+                <li>居家垃圾清運</li>
+                <li>回收物品處理</li>
+                <li>廚餘處理</li>
+                <li>大型垃圾清運</li>
+            </ul>
         </div>
     </section>
 
     <!-- Plans Section -->
-    <section class="section">
+    <section id="plans" class="section">
         <h2>方案介紹 / Plans</h2>
-        <div class="content-row reverse">
-            <img src="plans.jpg" alt="方案介紹" class="content-image">
-            <div class="content-text">
-                <h3>我們提供多種清運方案，滿足不同需求：</h3>
-                <ul>
-                    <li>單次清運方案</li>
-                    <li>每週定期清運方案</li>
-                    <li>專屬客製化清運方案</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section">
-        <h2>聯絡我們 / Contact</h2>
-        <div class="content-row">
-            <img src="contact.jpg" alt="聯絡我們" class="content-image">
-            <div class="content-text">
-                <h3>聯繫方式：</h3>
-                <p>電話：+886-123-456-789</p>
-                <p>Email：service@ecoclean.com</p>
-                <p>地址：台北市中正區清運街1號</p>
-            </div>
+        <div class="section-content">
+            <p>我們提供多種清運方案，滿足不同需求：</p>
+            <ul>
+                <li>單次清運方案</li>
+                <li>每週定期清運方案</li>
+                <li>專屬客製化清運方案</li>
+            </ul>
         </div>
     </section>
 
     <!-- About Us Section -->
-    <section class="section">
+    <section id="about" class="section">
         <h2>關於我們 / About Us</h2>
-        <div class="content-row reverse">
-            <img src="about.jpg" alt="關於我們" class="content-image">
-            <div class="content-text">
-                <h3>我們的使命：</h3>
-                <p>EcoClean 專注於提供高效、專業的垃圾清運服務。我們秉持環保理念，確保垃圾得到妥善處理，致力於打造乾淨、健康的社區環境。</p>
-                <p>選擇 EcoClean，就是選擇安心與品質。</p>
-            </div>
+        <div class="section-content">
+            <p>EcoClean 致力於提供專業、安全、快捷的垃圾清運服務。我們的使命是打造更清潔、更綠色的居家環境。</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>聯絡我們 / Contact</h2>
+        <div class="section-content">
+            <p>若有任何疑問或需要服務，請聯絡我們：</p>
+            <ul>
+                <li>電話：123-456-789</li>
+                <li>電子郵件：service@ecoclean.com</li>
+                <li>地址：台北市中山區某某路 123 號</li>
+            </ul>
         </div>
     </section>
 </body>
