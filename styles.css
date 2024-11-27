@@ -1,15 +1,10 @@
-/* 全局樣式 */
+/* 通用樣式 */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F2F4F1; /* 淺綠灰背景 */
-    color: #4F6D5A; /* 深綠文字 */
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
+    background-color: #F5F5F5;
+    color: #333;
 }
 
 .header {
@@ -107,35 +102,4 @@ a {
 
 .content-text li {
     margin: 10px 0;
-}
-
-/* Booking Form 樣式 */
-.booking-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.booking-form label {
-    font-weight: bold;
-}
-
-.booking-form input,
-.booking-form select,
-.booking-form button {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.booking-form button {
-    background-color: #3E8E41;
-    color: white;
-    font-weight: bold;
-}
-
-.booking-form button:hover {
-    background-color: #2E7031;
 }
