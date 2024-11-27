@@ -1,10 +1,15 @@
-/* 通用樣式 */
+/* 全局樣式 */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5;
-    color: #333;
+    background-color: #F2F4F1; /* 淺綠灰背景 */
+    color: #4F6D5A; /* 深綠文字 */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .header {
