@@ -1,105 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoClean</title>
+    <title>EcoClean - 垃圾清運服務</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="logo">EcoClean</div>
-        <nav class="navbar">
-            <a href="#">首頁 / Home</a>
-            <a href="#services">服務項目 / Services</a>
-            <a href="#plans">方案介紹 / Plans</a>
-            <a href="#about">關於我們 / About Us</a>
-            <a href="#contact">聯絡我們 / Contact</a>
-        </nav>
-        <div class="action-buttons">
-            <a href="booking.html" class="book-now-btn">立即預約 / Book Now</a>
+    <!-- 導航列 -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">EcoClean</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">首頁 / Home</a></li>
+            <li><a href="#services">服務項目 / Services</a></li>
+            <li><a href="#plans">方案介紹 / Plans</a></li>
+            <li><a href="#about-us">關於我們 / About Us</a></li>
+            <li><a href="#contact">聯絡我們 / Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button>註冊會員 / Sign Up</button>
+            <button>登入 / Login</button>
         </div>
     </header>
 
-    <!-- Banner -->
-    <section class="banner">
+    <!-- 橫幅區塊 -->
+    <section id="home" class="hero-banner">
         <h1>EcoClean 居家垃圾清運服務</h1>
         <p>專業、安全、快捷，致力於為您提供最舒適的生活環境。</p>
     </section>
 
-    <!-- Services Section -->
+    <!-- 服務項目 -->
     <section id="services" class="section">
         <h2>服務項目 / Services</h2>
-        <div class="section-content alternate-layout">
-            <div class="text">
-                <h3>我們提供以下服務：</h3>
-                <p>Our Services Include:</p>
-                <ul>
-                    <li>居家垃圾清運<br>Residential Waste Collection</li>
-                    <li>回收物品處理<br>Recyclable Waste Handling</li>
-                    <li>廚餘處理<br>Kitchen Waste Processing</li>
-                    <li>大型垃圾清運<br>Large Waste Collection</li>
-                </ul>
-            </div>
-            <div class="image">
-                <img src="service-image.jpg" alt="服務項目">
-            </div>
-        </div>
+        <p>我們提供以下服務：</p>
+        <ul>
+            <li>居家垃圾清運</li>
+            <li>回收物品處理</li>
+            <li>廚餘處理</li>
+            <li>大型垃圾清運</li>
+        </ul>
     </section>
 
-    <!-- Plans Section -->
+    <!-- 方案介紹 -->
     <section id="plans" class="section">
         <h2>方案介紹 / Plans</h2>
-        <div class="section-content alternate-layout reverse">
-            <div class="image">
-                <img src="plan-image.jpg" alt="方案介紹">
-            </div>
-            <div class="text">
-                <h3>我們提供多種清運方案，滿足不同需求：</h3>
-                <p>We Offer Various Plans to Suit Your Needs:</p>
-                <ul>
-                    <li>單次清運方案<br>One-Time Collection Plan</li>
-                    <li>每週定期清運方案<br>Weekly Scheduled Collection Plan</li>
-                    <li>專屬客製化清運方案<br>Customized Collection Plan</li>
-                </ul>
-            </div>
-        </div>
+        <p>我們提供多種清運方案，滿足不同需求：</p>
+        <ul>
+            <li>單次清運方案</li>
+            <li>每週定期清運方案</li>
+            <li>企業垃圾清運方案</li>
+            <li>環保回收方案</li>
+        </ul>
     </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="section">
+    <!-- 關於我們 -->
+    <section id="about-us" class="section">
         <h2>關於我們 / About Us</h2>
-        <div class="section-content alternate-layout">
-            <div class="text">
-                <h3>EcoClean 致力於提供專業、安全、快捷的垃圾清運服務。</h3>
-                <p>EcoClean is dedicated to providing professional, safe, and efficient waste collection services.</p>
-                <p>我們的使命是打造更清潔、更綠色的居家環境。</p>
-                <p>Our mission is to create a cleaner and greener living environment.</p>
-            </div>
-            <div class="image">
-                <img src="about-us-image.jpg" alt="關於我們">
-            </div>
-        </div>
+        <p>EcoClean 是一家專注於垃圾清運與環保的公司。我們的使命是打造清潔、健康的居家環境。</p>
     </section>
 
-    <!-- Contact Section -->
+    <!-- 聯絡我們 -->
     <section id="contact" class="section">
         <h2>聯絡我們 / Contact</h2>
-        <div class="section-content alternate-layout reverse">
-            <div class="image">
-                <img src="contact-image.jpg" alt="聯絡我們">
-            </div>
-            <div class="text">
-                <h3>若有任何疑問或需要服務，請聯絡我們：</h3>
-                <p>If you have any questions or need assistance, please contact us:</p>
-                <ul>
-                    <li>電話：123-456-789<br>Phone: 123-456-789</li>
-                    <li>電子郵件：service@ecoclean.com<br>Email: service@ecoclean.com</li>
-                    <li>地址：台北市中山區某某路 123 號<br>Address: No.123, Zhongshan Rd., Taipei City</li>
-                </ul>
-            </div>
-        </div>
+        <p>如有任何問題，請聯絡我們：</p>
+        <ul>
+            <li>電話：123-456-789</li>
+            <li>Email：support@ecoclean.com</li>
+            <li>地址：台北市某某區某某路123號</li>
+        </ul>
     </section>
+
+    <!-- 預約按鈕 -->
+    <main>
+        <button onclick="location.href='booking.html'" style="display: block; margin: 1rem auto;">預約收垃圾 / Book Now</button>
+    </main>
 </body>
 </html>
