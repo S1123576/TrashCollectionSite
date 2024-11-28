@@ -157,3 +157,25 @@ form button {
 form button:hover {
     background-color: #A3B8A3;
 }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.buttons button {
+    background-color: #4F6D5A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #A3B8A3;
+}
+
