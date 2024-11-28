@@ -7,47 +7,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- 預約網頁內容 -->
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">EcoClean</a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html#home">首頁 / Home</a></li>
+            <li><a href="index.html#services">服務項目 / Services</a></li>
+            <li><a href="index.html#plans">方案介紹 / Plans</a></li>
+            <li><a href="index.html#about-us">設計理念 / Philosophy</a></li>
+            <li><a href="index.html#contact">聯絡我們 / Contact</a></li>
+        </ul>
+    </header>
+
     <section class="section">
-        <h2>預約收垃圾 / Book a Pickup</h2>
-        <form action="#" method="post">
+        <h2>預約收垃圾 / Book a Waste Collection</h2>
+        <p>請填寫以下資訊，以完成預約。</p>
+        <p>Please fill in the following details to complete your booking.</p>
+
+        <form action="confirmation.html" method="post">
+            <!-- 姓名 -->
             <label for="name">姓名 / Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required><br><br>
 
+            <!-- 聯絡電話 -->
             <label for="phone">聯絡電話 / Phone:</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="請輸入您的聯絡電話" required><br><br>
 
+            <!-- 地址 -->
             <label for="address">地址 / Address:</label><br>
-            <input type="text" id="address" name="address" required><br><br>
+            <input type="text" id="address" name="address" placeholder="請輸入您的地址" required><br><br>
 
-            <label for="date">預約日期 / Pickup Date:</label><br>
+            <!-- 預約日期 -->
+            <label for="date">預約日期 / Booking Date:</label><br>
             <input type="date" id="date" name="date" required><br><br>
 
+            <!-- 垃圾體積 -->
             <label for="volume">垃圾體積 / Waste Volume:</label><br>
             <select id="volume" name="volume" required>
+                <option value="" disabled selected>請選擇垃圾體積 / Select Volume</option>
                 <option value="small">小型 / Small</option>
                 <option value="medium">中型 / Medium</option>
                 <option value="large">大型 / Large</option>
                 <option value="extra-large">超大型 / Extra Large</option>
             </select><br><br>
 
+            <!-- 垃圾種類 -->
             <label for="type">垃圾種類 / Waste Type:</label><br>
             <select id="type" name="type" required>
+                <option value="" disabled selected>請選擇垃圾種類 / Select Type</option>
                 <option value="recyclable">可回收 / Recyclable</option>
                 <option value="non-recyclable">不可回收 / Non-Recyclable</option>
-                <option value="kitchen">廚餘 / Kitchen Waste</option>
+                <option value="kitchen-waste">廚餘 / Kitchen Waste</option>
             </select><br><br>
 
-            <button type="submit">送出預約 / Submit</button>
+            <!-- 送出按鈕 -->
+            <button type="submit">送出預約 / Submit Booking</button>
         </form>
-        <form action="confirmation.html" method="post">
-    <!-- 填寫資訊的欄位 -->
-    <label for="name">姓名 / Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-    <!-- 其他欄位省略 -->
-    <button type="submit">送出預約 / Submit</button>
-</form>
-
     </section>
 </body>
 </html>
