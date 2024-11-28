@@ -124,4 +124,37 @@ a {
 .section ul li {
     margin: 0.5rem 0;
 }
+form {
+    text-align: left;
+    margin: auto;
+    max-width: 500px;
+}
+
+form label {
+    font-weight: bold;
+    color: #4F6D5A;
+}
+
+form input, form select, form button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #4F6D5A;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #4F6D5A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #A3B8A3;
+}
 
